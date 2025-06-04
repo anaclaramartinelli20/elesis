@@ -66,6 +66,7 @@ return
 ; se fala de mnemonic olhar arquivo code aps g
 ; pede para adicionar em "addw" -> SÓ MEXER NELE
 ; dentro do if-else devemos preencher com a instrução em binário -> manual em instruction set Z01
+; as instrucoes são colocadas do bit 3-9
 
 public static String comp(String[] mnemnonic) {
          String op = mnemnonic[0];
